@@ -37,7 +37,7 @@ W_TALAS = 0.7
 W_FREQ = 0.3
 
 # Korak 2: primena talasa na CSV.
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4632_k47.csv")
+CSV_PATH = Path("/data/loto7hh_4632_k47.csv")
 MIN_BROJ = 1
 MAX_BROJ = 39
 KOLONE = [f"Num{i}" for i in range(1, 8)]
@@ -297,20 +297,20 @@ max S: 0.9999984566
 max |E_x|: 0.1010872708
 ukupna gustina energije: 124.8336223276
 
-Slika talasa: /Users/4c/Desktop/GHQ/Tesla/tesla_scalar_1.png
-Slika talasa: /Users/4c/Desktop/GHQ/Tesla/tesla_scalar_1.jpg
+Slika talasa: /Tesla/tesla_scalar_1.png
+Slika talasa: /Tesla/tesla_scalar_1.jpg
 
 
 Tesla Scalar - korak 2 (tezinski: talas + prava frekvencija)
-CSV: /Users/4c/Desktop/GHQ/data/loto7hh_4632_k47.csv | Izvlacenja: 4632 | tezine: talas=0.7 freq=0.3
+CSV: /data/loto7hh_4632_k47.csv | Izvlacenja: 4632 | tezine: talas=0.7 freq=0.3
 
 Top 10 brojeva po kombinovanom skoru (tezinski talas + frekvencija):
   34  skor=0.9213793103  freq=0.02692  (pojava=873)
-  35  skor=0.8176249656  freq=0.02600  (pojava=843)
+   x  skor=0.8176249656  freq=0.02600  (pojava=843)
   08  skor=0.7603045533  freq=0.02810  (pojava=911)
-  21  skor=0.6931601524  freq=0.02551  (pojava=827)
+   y  skor=0.6931601524  freq=0.02551  (pojava=827)
   13  skor=0.6706469920  freq=0.02554  (pojava=828)
-  31  skor=0.6127524074  freq=0.02560  (pojava=830)
+   z  skor=0.6127524074  freq=0.02560  (pojava=830)
   33  skor=0.6112555867  freq=0.02634  (pojava=854)
   37  skor=0.5766162438  freq=0.02652  (pojava=860)
   03  skor=0.5593769679  freq=0.02547  (pojava=826)
@@ -321,23 +321,23 @@ Tabela pravih frekvencija (opadajuce po freq, pa po broju):
   broj | pojava |   udeo
   -----+--------+--------
    08  |   911  | 0.02810
-   23  |   905  | 0.02791
+    x  |   905  | 0.02791
    34  |   873  | 0.02692
-   26  |   869  | 0.02680
+    y  |   869  | 0.02680
    11  |   861  | 0.02655
-   37  |   860  | 0.02652
+    z  |   860  | 0.02652
    32  |   857  | 0.02643
-   33  |   854  | 0.02634
+    x  |   854  | 0.02634
    22  |   851  | 0.02625
-   39  |   849  | 0.02618
+    y  |   849  | 0.02618
    29  |   849  | 0.02618
-   10  |   845  | 0.02606
+    z  |   845  | 0.02606
    07  |   844  | 0.02603
-   35  |   843  | 0.02600
+    x  |   843  | 0.02600
    09  |   843  | 0.02600
-   38  |   842  | 0.02597
+    y  |   842  | 0.02597
    25  |   840  | 0.02591
-   24  |   840  | 0.02591
+    z  |   840  | 0.02591
    16  |   837  | 0.02581
    31  |   830  | 0.02560
    13  |   828  | 0.02554
@@ -363,130 +363,19 @@ Tabela pravih frekvencija (opadajuce po freq, pa po broju):
 
 
 Predlozene kombinacije (rangirane po skoru kombinacije):
-  01. 06 12 13 25 34 35 39  skor_komb=4.5418643612
-  02. 07 08 13 23 24 25 34  skor_komb=4.1634211362
-  03. 08 17 18 23 26 33 34  skor_komb=3.9810045066
-  04. 02 11 16 21 25 34 39  skor_komb=3.9122219361
-  05. 17 25 28 29 31 33 34  skor_komb=3.7585875317
-  06. 06 07 13 31 32 37 39  skor_komb=3.6671382613
-  07. 10 11 14 21 23 32 34  skor_komb=3.5510319632
-  08. 04 11 25 30 32 33 37  skor_komb=3.2859546418
-  09. 09 10 11 21 30 33 38  skor_komb=3.1775679882
-  10. 02 05 08 13 19 30 39  skor_komb=3.1243055239
+  01. x 12 13 y 34 z 39  skor_komb=4.5418643612
+  02. x 08 13 y 24 z 34  skor_komb=4.1634211362
+  03. x 17 18 y 26 z 34  skor_komb=3.9810045066
+  04. x 11 16 y 25 z 39  skor_komb=3.9122219361
+  05. x 25 28 y 31 z 34  skor_komb=3.7585875317
+  06. x 07 13 y 32 z 39  skor_komb=3.6671382613
+  07. x 11 14 y 23 z 34  skor_komb=3.5510319632
+  08. x 11 25 y 32 z 37  skor_komb=3.2859546418
+  09. x 10 11 y 30 z 38  skor_komb=3.1775679882
+  10. x 05 08 y 19 z 39  skor_komb=3.1243055239
 
-Sacuvano: /Users/4c/Desktop/GHQ/Tesla/tesla_scalar_1.txt
+Sacuvano: /Tesla/tesla_scalar_1.txt
 """
-
-
-
-
-
-
-"""
-čist SLW motor — skalarni talas koji se prostire u +x pravcu (d'Alamberov talas), 
-skalarno polje S(x,t) koje se prostire u +x pravcu 
-plus uzdužno polje E_x = -∂S/∂x (gradient-driven, kako EED i opisuje). 
-osnovne mere: max S, max |E_x|, ukupna gustina energije
-Bez frekvencijske logike, čista fizika.
-
-Ključna ideja koraka 2 (ne-frekvencijska): 
-SLW talas iz koraka 1 prostire se preko 4630 izvlačenja (1 tačka = 1 izvlačenje). 
-Za svaki broj 1-39 računa ne-frekvencijski skor =  prosečna energija talasa na pozicijama gde se taj broj pojavio 
-— dakle ne koliko puta (frekvencija), nego gde u talasu leži (rezonanca sa poljem).
-ne_frekvencijski_skor() — prosečna energija talasa po broju (ne frekvencija)
-Biram 10 kombinacija ponderisano tim skorom (seed 39).
-izaberi_kombinacije() — 10 kombinacija ponderisano tim skorom (seed 39)
-
-skorovi su međusobno vrlo blizu (0.0285-0.0329) 
-— talas trenutno slabo razdvaja brojeve. 
-Razlog: uzimam prosečnu energiju po broju, 
-a kako se svaki broj pojavljuje na ~800+ 
-različitih pozicija duž celog talasa, 
-proseci se izravnaju i ispadnu skoro isti za sve.
-To znači da, iako jeste ne-frekvencijski po definiciji, 
-talas još nema dovoljno „oštrine" da napravi jasnu razliku.
-Zato model koristi pravu frekvenciju pojavljivanja brojeva nad svih 4630 izvlačenja.
-frekvencija_brojeva(izvlacenja) — broji koliko se svaki broj 1-39 pojavio i vraća relativnu frekvenciju (udeo, zbir = 1) i sirov broj (pojave).
-kombinovani_skor na normalizovanu težinsku kombinaciju (svaka komponenta skalirana na 0-1, pa ponderisan zbir).
-Obe komponente se skaliraju na 0-1 (_na_0_1), pa ponderisan zbir: skor = W_TALAS·talas + W_FREQ·freq.
-Težine na vrhu fajla: W_TALAS = 0.7, W_FREQ = 0.3 (lako menjam).
-
-Logika: 
-cela ideja je ne-frekvencijska (Tesla talas nosi razliku), 
-a kod 7/39 nad 4630 izvlačenja frekvencija je skoro ravna (svaki broj ~ isti očekivani broj pojava) 
-— pa frekvencija služi samo kao blagi stabilizator, ne kao glavni signal. 
-Zato talas treba da dominira.
-
-Postavljeno: 
-talas 0.7 / freq 0.3 — talas dominira (ne-frekvencijska ideja), frekvencija samo blago koriguje. 
-
-Frekvencija je realna: 
-ukupno ima 4630 x 7 = 32410 pojavljivanja, očekivano po broju je oko 831. 
-
-Zato su ove vrednosti normalne:
-08 = 910 je stvarno jači po frekvenciji.
-34 = 873 nije najjači po frekvenciji, ali je prvi po skoru, znači talas ga je podigao.
-21 = 826, 13 = 828, 31 = 830 su skoro prosečni po frekvenciji, ali su visoko, opet znači da talas radi svoj deo.
-Zaključak: odnos 0.7 talas / 0.3 freq nije ubio Teslinu ideju. 
-Frekvencija samo stabilizuje, a talas i dalje odlučuje.
-
-broj 34 se previše ponavlja u kombinacijama. 
-Sledeći korak mozda da bude kontrola raznovrsnosti kombinacija, da top broj ne upada u pola liste.
-
-Tabela pravih frekvencija je sortirana opadajuće — primarno po frekvenciji (pojava), a kod istog broja pojava po većem broju prvo. Isto u txt i u konzoli.
-
-Sad imam dobru osnovu: 
-SLW motor radi na 4630 tačaka.
-Talas je primenjen na CSV.
-Prava frekvencija je izračunata i prikazana.
-Kombinovani skor je težinski 0.7 talas / 0.3 freq.
-Txt izlaz je pregledan i potpun.
-
-Svaku kombinaciju ocenim (npr. zbir/prosek skorova njenih 7 brojeva) i sortiramo opadajuće. 
-Svaka kombinacija dobije svoj skor i da lista bude sortirana od najjače ka slabijoj, pa će prva zaista biti favorit.
-
-10 kombinacija se prvo generiše, zatim se svaka ocenjuje sa skor_komb = zbir skorova 7 brojeva i sortira opadajuće. 
-Zato je kombinacija 01 sada favorit, a deseta je najslabija od ponuđenih.
-
-Kombinacije su sad sortirane opadajuće po skor_komb: od 4.183 (prva) do 2.835 (deseta).
-Favorit je 01: 06 13 22 25 34 35 39 (skor_komb=4.1828).
-Najslabija ponuđena je 10: 09 10 11 29 30 33 38 (2.8350).
-
-Logika je konzistentna: 
-prva kombinacija ima najviše jakih brojeva po kombinovanom skoru 
-(34, 35, 25, 13, 39 su svi visoko u top listi), 
-a deseta ima brojeve nižeg ranga.
-
-
-
-na kraju crta talas/polje i snima slike:
-
-3 panela: 
-S(x) (skalarno polje), 
-E_x = -dS/dx (uzdužno polje), 
-i energija.
-"""
-
-
-
-
-"""
-Analiza — Tesla 1 (ručni SLW motor)
-
-Motor: d'Alamberova jednačina, konačne razlike, 1D talas u +x. Polje: max S ≈ 1.0, max|E_x| ≈ 0.101, ukupna energija ≈ 124.78. Mala |E_x| znači blag gradijent — talas je „mek", energija je raspoređena prilično glatko.
-
-Top brojevi (talas + freq, 0.7/0.3): 34 (0.923) · 35 (0.819) · 08 (0.762) · 21 (0.694) · 13 (0.671) · 31 (0.613) · 33 (0.612) · 37 (0.578) · 03 (0.561) · 25 (0.559)
-
-Šta nosi rang:
-
-08 je u top 3 i frekvencijski je #1 (910) → tu se talas i frekvencija slažu.
-21, 13, 31 su frekvencijski prosečni/ispod (826/828/830), a visoko su → talas ih je podigao (ne-frekvencijski signal radi).
-35 je #2 po skoru a frekvencijski je tek sredina (843) → opet talas.
-Favorit kombinacija: 06 13 22 25 34 35 39 (skor_komb = 4.1828). Najslabija ponuđena: 09 10 11 29 30 33 38 (2.8350).
-
-Zaključak: Tesla 1 je „mekan" motor — diferencijacija među brojevima je umerena (skorovi se glatko spuštaju). Dobar je kao referentna osnova: dokazuje da ne-frekvencijski signal postoji, ali bez oštrih vrhova. To je očekivano za jednostavan 1D talas.
-"""
-
 
 
 
